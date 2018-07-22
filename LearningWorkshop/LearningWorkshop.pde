@@ -1,3 +1,15 @@
+/**
+ * Based on Pointillism by Daniel Shiffman. 
+ * 
+ * Mouse horizontal location controls size of dots. 
+ * As mouse is clicked, it reates a simple pointillist 
+ * effect using ellipses colored
+ * according to pixels in an image. 
+ *
+ * The purpose is to visualise how the image converges
+ * to the input with different rates as the size (resolution)
+ * is varied.
+ */
 
 PImage data;
 PGraphics model;
